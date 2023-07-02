@@ -16,6 +16,7 @@
 		F1BC9D212A5183B300B99CEE /* hwa_twitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9D202A5183B300B99CEE /* hwa_twitchTests.swift */; };
 		F1BC9D2B2A5183B300B99CEE /* hwa_twitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9D2A2A5183B300B99CEE /* hwa_twitchUITests.swift */; };
 		F1BC9D2D2A5183B300B99CEE /* hwa_twitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9D2C2A5183B300B99CEE /* hwa_twitchUITestsLaunchTests.swift */; };
+		F1BC9D3A2A5185CA00B99CEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC9D392A5185CA00B99CEE /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1BC9D262A5183B300B99CEE /* hwa_twitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwa_twitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BC9D2A2A5183B300B99CEE /* hwa_twitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwa_twitchUITests.swift; sourceTree = "<group>"; };
 		F1BC9D2C2A5183B300B99CEE /* hwa_twitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwa_twitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1BC9D392A5185CA00B99CEE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F1BC9D082A5183B200B99CEE /* hwa_twitch */ = {
 			isa = PBXGroup;
 			children = (
+				F1BC9D3B2A5185D300B99CEE /* Feature */,
 				F1BC9D092A5183B200B99CEE /* AppDelegate.swift */,
 				F1BC9D0B2A5183B200B99CEE /* SceneDelegate.swift */,
 				F1BC9D0D2A5183B200B99CEE /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				F1BC9D2C2A5183B300B99CEE /* hwa_twitchUITestsLaunchTests.swift */,
 			);
 			path = hwa_twitchUITests;
+			sourceTree = "<group>";
+		};
+		F1BC9D3B2A5185D300B99CEE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				F1BC9D392A5185CA00B99CEE /* HomeViewController.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				F1BC9D0E2A5183B200B99CEE /* ViewController.swift in Sources */,
 				F1BC9D0A2A5183B200B99CEE /* AppDelegate.swift in Sources */,
 				F1BC9D0C2A5183B200B99CEE /* SceneDelegate.swift in Sources */,
+				F1BC9D3A2A5185CA00B99CEE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
